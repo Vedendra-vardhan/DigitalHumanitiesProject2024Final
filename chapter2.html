@@ -47,6 +47,12 @@
   ::-webkit-scrollbar-track { background: var(--parchment); }
   ::-webkit-scrollbar-thumb { background: var(--gold); }
 
+  /* ─── IMAGES ─── */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
   /* ════════════════════════════════
      NAV
   ════════════════════════════════ */
@@ -825,15 +831,7 @@
 
       <!-- IMAGE SIDE -->
       <div class="block-image reveal">
-        <!-- Replace this placeholder div with your real image:
-             <img src="your-image.jpg" alt="Describe the image" class="block-img-real"> -->
-        <div class="block-img-placeholder">
-          <div class="img-placeholder-icon">⬡</div>
-          <p class="img-placeholder-text">
-            Insert image here<br>
-            Replace with &lt;img src="..."&gt;
-          </p>
-        </div>
+        <img src="./images/campus.jpg" alt="IIST Campus" class="block-img-real">
       </div>
 
       <!-- TEXT SIDE -->
@@ -888,20 +886,11 @@
 ════════════════════════════════════════ -->
 <div class="visual-break"
   style="
-    /* ADD YOUR IMAGE:
-       background: url('your-image.jpg') center/cover no-repeat;
-    */
+    background: linear-gradient(135deg, rgba(19,18,16,0.4) 0%, rgba(19,18,16,0.5) 100%),
+                url('./images/iist_003.jpg') center/cover no-repeat;
   ">
   <div class="visual-break-grid"></div>
   <div class="visual-break-glow"></div>
-  <!-- DELETE this placeholder block once you add a real image -->
-  <div class="visual-break-placeholder">
-    <div class="visual-break-icon">⬡</div>
-    <p class="visual-break-label">
-      Visual Break<br>
-      Replace with a full-width atmospheric image
-    </p>
-  </div>
 </div>
 
 
