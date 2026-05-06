@@ -731,42 +731,29 @@
   <a href="../index.html" class="nav-back">← Back to Home</a>
 </nav>
 
-
-<!-- ════════════════════════════════════════
-     A. PAGE HERO
-     ─────────────────────────────────────
-     EDITABLE:
-       1. Replace [Chapter Tag] with e.g. "Chapter II", "Milestone", "Reflection"
-       2. Replace hero title text (use <em> for the italic gold word)
-       3. Replace hero subtitle text
-       4. Add your background image in the CSS #page-hero rule
-     ─────────────────────────────────────
-     DESIGN NOTES:
-       • Full-height cinematic header, text bottom-left
-       • Background image with gradient overlay for text legibility
-       • Can repeat: yes, one per page
-════════════════════════════════════════ -->
 <section id="page-hero">
   <div class="hero-grain"></div>
 
   <div class="hero-content">
     <!-- Chapter / type label -->
-    
+    <span class="hero-tag">MOMENT-VI</span>
 
-    <!-- Main title — use <em> for the italic/gold word -->
+    <!-- Main title — use <em>  for the italic/gold word -->
     <h1 class="hero-title">
-      Section Title<br>Goes <em>Here</em>
+    A National Footprint
+
+
     </h1>
 
     <!-- Short subtitle — one or two lines max -->
     <p class="hero-subtitle">
-      A short, evocative subtitle that sets the tone for this section.
-      Keep it poetic and brief — no more than two lines.
+     From a coastal cradle to every corner of the nation.
+
     </p>
 
     <div class="hero-scroll">
       <div class="hero-scroll-line"></div>
-      Continue reading
+      
     </div>
   </div>
 </section>
@@ -791,23 +778,17 @@
 
     <!-- Pull-quote / chapter opener — italic, impactful, 1–2 sentences -->
     <blockquote class="intro-opener reveal reveal-delay-1">
-      "Replace this with a single, powerful line that frames this chapter.
-      It should feel like the first sentence of a memoir."
+     "The interviews were scheduled in Bangalore and fortunately, there was a good inflow of applications."
+
     </blockquote>
 
     <!-- Intro paragraph 1 -->
     <p class="intro-text reveal reveal-delay-2">
-      This is where you introduce the section in 2–4 sentences. Keep it
-      narrative and personal — avoid bullet points and formal language here.
-      Write as if you are telling a story, not presenting a report.
+     While the institute found its physical home in the coastal landscape of Thiruvananthapuram, its spirit and reach have always been national. From its very first call for applications, the institute attracted the brightest talent from across the country, creating a diverse community united by a shared passion for space.
+
     </p>
 
-    <!-- Intro paragraph 2 (optional — delete if not needed) -->
-    <p class="intro-text reveal reveal-delay-3">
-      This second paragraph can expand slightly on what the reader will encounter
-      in this section, or deepen the emotional context you opened with. End with
-      something that makes the reader want to keep scrolling.
-    </p>
+
 
   </div>
 </section>
@@ -835,211 +816,29 @@
 
       <!-- IMAGE SIDE -->
       <div class="block-image reveal">
-        <!-- Replace this placeholder div with your real image:
-             <img src="your-image.jpg" alt="Describe the image" class="block-img-real"> -->
-        <div class="block-img-placeholder">
-          <div class="img-placeholder-icon">⬡</div>
-          <p class="img-placeholder-text">
-            Insert image here<br>
-            Replace with &lt;img src="..."&gt;
-          </p>
-        </div>
+        <img src="../images/Conscientia 2010 (43).jpg" alt="Moment image" class="block-img-real">
       </div>
 
       <!-- TEXT SIDE -->
       <div class="block-text reveal reveal-delay-2">
-        <span class="section-label">[Section Tag]</span>
+        <span class="section-label">Narrative Block</span>
 
         <!-- Section heading — use <em> for the stylised word -->
         <h2 class="block-heading">
-          Section Heading<br>Goes <em>Here</em>
+         Sourcing the Best
         </h2>
 
         <div class="gold-rule"></div>
 
         <!-- Body paragraph 1 -->
         <p>
-          This is your main paragraph for this block. Write 3–5 sentences that
-          narrate the moment, person, or idea this image represents. Stay personal
-          and specific — avoid generic descriptions. Detail is what makes stories memorable.
+         To ensure that the institute drew from the very best talent, the selection process was conducted through regular job advertisements and national-level examinations across India. Recruitment and student intake were not limited by geography, as interviews were held in hubs like Bangalore to reach as many qualified candidates as possible. This national footprint has created an alumni network that spans the entire country, ensuring that the legacy of the "120-day miracle" continues to influence the scientific landscape of every major Indian city.
+
+
         </p>
 
-        <!-- Body paragraph 2 (optional) -->
-        <p>
-          You can add a second paragraph here if needed. Keep the total text
-          concise — this block should breathe alongside the image, not overwhelm it.
-        </p>
+        
       </div>
-
-    </div>
-  </div>
-</section>
-
-
-<!-- ── TYPE 2: Text Left / Image Right ──
-     EDITABLE: heading, paragraphs, image
-     DESIGN NOTES:
-       • Mirror of Type 1 — text left, image right
-       • Creates visual rhythm when alternated with Type 1
-       • Can repeat: yes
--->
-<section class="content-block">
-  <div class="container-wide">
-    <div class="block-split block-img-right">
-
-      <!-- TEXT SIDE (renders left because of flex order) -->
-      <div class="block-text reveal">
-        <span class="section-label">[Section Tag]</span>
-
-        <h2 class="block-heading">
-          Another Section<br><em>Heading Here</em>
-        </h2>
-
-        <div class="gold-rule"></div>
-
-        <p>
-          Another content paragraph. Each Type 1 / Type 2 block pair tells one
-          part of the story. Think of them as facing pages in a book — image and
-          text always in conversation with each other.
-        </p>
-
-        <p>
-          Optional second paragraph. Delete if not needed.
-          Less text + more whitespace = more impact.
-        </p>
-      </div>
-
-      <!-- IMAGE SIDE (renders right) -->
-      <div class="block-image reveal reveal-delay-2">
-        <!-- Replace with: <img src="your-image.jpg" alt="Description" class="block-img-real"> -->
-        <div class="block-img-placeholder">
-          <div class="img-placeholder-icon">⬡</div>
-          <p class="img-placeholder-text">
-            Insert image here<br>
-            Replace with &lt;img src="..."&gt;
-          </p>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<section class="content-block">
-  <div class="container-wide">
-    <div class="block-split block-img-left">
-
-      <!-- IMAGE SIDE -->
-      <div class="block-image reveal">
-        <img src="../images/iist_011.jpg" alt="Moment image" class="block-img-real">
-      </div>
-
-      <!-- TEXT SIDE -->
-      <div class="block-text reveal reveal-delay-2">
-        <span class="section-label">[Section Tag]</span>
-
-        <!-- Section heading — use <em> for the stylised word -->
-        <h2 class="block-heading">
-          Section Heading<br>Goes <em>Here</em>
-        </h2>
-
-        <div class="gold-rule"></div>
-
-        <!-- Body paragraph 1 -->
-        <p>
-          This is your main paragraph for this block. Write 3–5 sentences that
-          narrate the moment, person, or idea this image represents. Stay personal
-          and specific — avoid generic descriptions. Detail is what makes stories memorable.
-        </p>
-
-        <!-- Body paragraph 2 (optional) -->
-        <p>
-          You can add a second paragraph here if needed. Keep the total text
-          concise — this block should breathe alongside the image, not overwhelm it.
-        </p>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<section class="content-block">
-  <div class="container-wide">
-    <div class="block-split block-img-right">
-
-      <!-- TEXT SIDE (renders left because of flex order) -->
-      <div class="block-text reveal">
-        <span class="section-label">[Section Tag]</span>
-
-        <h2 class="block-heading">
-          Another Section<br><em>Heading Here</em>
-        </h2>
-
-        <div class="gold-rule"></div>
-
-        <p>
-          Another content paragraph. Each Type 1 / Type 2 block pair tells one
-          part of the story. Think of them as facing pages in a book — image and
-          text always in conversation with each other.
-        </p>
-
-        <p>
-          Optional second paragraph. Delete if not needed.
-          Less text + more whitespace = more impact.
-        </p>
-      </div>
-
-      <!-- IMAGE SIDE (renders right) -->
-      <div class="block-image reveal reveal-delay-2">
-        <!-- Replace with: <img src="your-image.jpg" alt="Description" class="block-img-real"> -->
-        <div class="block-img-placeholder">
-          <div class="img-placeholder-icon">⬡</div>
-          <p class="img-placeholder-text">
-            Insert image here<br>
-            Replace with &lt;img src="..."&gt;
-          </p>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-<!-- ── TYPE 3: Full-Width Image + Overlay Text ──
-     EDITABLE: heading, body text, background image (in CSS or inline style)
-     DESIGN NOTES:
-       • Dramatic full-bleed section — text floats over the image
-       • Add your image in the style attribute below (background-image: url(...))
-       • Use for: turning points, dramatic revelations, key moments
-       • Can repeat: yes, but use sparingly — 1–2 per page for maximum impact
--->
-<section class="content-block block-full"
-  style="
-    /* ADD YOUR IMAGE HERE:
-       background-image:
-         linear-gradient(to right, rgba(19,18,16,0.92) 40%, rgba(19,18,16,0.5) 100%),
-         url('your-image.jpg');
-       background-size: cover;
-       background-position: center;
-    */
-  ">
-  <div class="block-full-grid"></div>
-
-  <div class="container-wide" style="position:relative;z-index:2;width:100%">
-    <div class="block-full-content reveal">
-
-      <span class="section-label" style="color:var(--gold)">[Section Tag]</span>
-
-      <!-- Full-width block heading -->
-      <h2 class="block-full-heading">
-        A Powerful Heading<br><em>That Stands Alone</em>
-      </h2>
-
-      <!-- Full-width block text — italic, shorter, atmospheric -->
-      <p class="block-full-text">
-        This is your full-width text block. It should be shorter and more
-        atmospheric than the split blocks — a moment of reflection, not a full
-        explanation. Think caption, not paragraph. Two to four sentences maximum.
-      </p>
 
     </div>
   </div>
@@ -1069,7 +868,7 @@
 <div class="visual-break"
   style="
     background: linear-gradient(135deg, rgba(19,18,16,0.4) 0%, rgba(19,18,16,0.5) 100%),
-                url('../images/iist_011.jpg') center/cover no-repeat;
+                url('../images/iist_010.jpg') center/cover no-repeat;
   ">
   <div class="visual-break-grid"></div>
   <div class="visual-break-glow"></div>
@@ -1096,14 +895,14 @@
     <!-- The big centred quote — short and impactful (1–3 lines) -->
     <!-- Use <em> to highlight a key word or phrase in gold -->
     <blockquote class="highlight-quote reveal reveal-delay-1">
-      "Replace this with the most powerful line of this chapter —
-      the sentence you want the reader to remember
-      long after they've <em>closed the page.</em>"
+   "The idea spread further than its founders ever imagined, attracting the brightest minds to join a mission that was truly national in scale."
+
+
     </blockquote>
 
     <!-- Attribution or short note below the quote -->
     <p class="highlight-attr reveal reveal-delay-2">
-      — Attribution or reflection (optional)
+     
     </p>
 
     <div class="highlight-rule reveal reveal-delay-3"></div>
@@ -1126,8 +925,6 @@
        • Recommended: 3–5 milestones max
 ════════════════════════════════════════ -->
 
-
-
 <!-- ════════════════════════════════════════
      G. CLOSING SECTION
      ─────────────────────────────────────
@@ -1144,7 +941,6 @@
 ════════════════════════════════════════ -->
 
 
-
 <!-- ════════════════════════════════════════
      FOOTER
      EDITABLE: institute name, website/contact
@@ -1152,7 +948,7 @@
 <footer>
   <span class="footer-logo">Indian Institute of Space Science and Technology</span>
   <span class="footer-note">
-    &nbsp;·&nbsp; Est. 2007
+     Est. 2007
   </span>
 </footer>
 
@@ -1183,3 +979,4 @@
 
 </body>
 </html>
+
